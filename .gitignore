@@ -3,3 +3,6 @@ cache/
 crytic-export/
 node_modules/
 typechain/
+arguments.js
+initHash.js
+package-lock.json

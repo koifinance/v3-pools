@@ -27,8 +27,11 @@
   "engines": {
     "node": ">=10"
   },
-  "dependencies": {},
   "devDependencies": {
+    "@matterlabs/hardhat-zksync-chai-matchers": "^0.3.0",
+    "@matterlabs/hardhat-zksync-deploy": "^0.9.0",
+    "@matterlabs/hardhat-zksync-solc": "^1.1.4",
+    "@matterlabs/hardhat-zksync-verify": "^1.4.2",
     "@nomiclabs/hardhat-ethers": "^2.0.2",
     "@nomiclabs/hardhat-etherscan": "^2.1.8",
     "@nomiclabs/hardhat-waffle": "^2.0.1",
@@ -54,6 +57,15 @@
   },
   "scripts": {
     "compile": "hardhat compile",
-    "test": "hardhat test"
+    "test": "hardhat test",
+    "hash": "node initHash.js"
+  },
+  "dependencies": {
+    "zksync-ethers": "^5.7.0",
+    "@openzeppelin/contracts": "3.4.1-solc-0.7-2",
+    "@uniswap/lib": "^4.0.1-alpha",
+    "@uniswap/v2-core": "https://github.com/uniswap-zksync/era-uniswap-v2-core.git#v1.0.1-zksync-era",
+    "base64-sol": "1.0.1",
+    "hardhat-watcher": "^2.1.1"
   }
 }

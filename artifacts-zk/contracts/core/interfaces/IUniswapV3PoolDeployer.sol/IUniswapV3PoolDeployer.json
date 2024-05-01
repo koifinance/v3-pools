@@ -1,0 +1,63 @@
+{
+  "_format": "hh-zksolc-artifact-1",
+  "contractName": "IUniswapV3PoolDeployer",
+  "sourceName": "contracts/core/interfaces/IUniswapV3PoolDeployer.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "feeParameters",
+      "outputs": [
+        {
+          "internalType": "uint8",
+          "name": "fee0",
+          "type": "uint8"
+        },
+        {
+          "internalType": "uint8",
+          "name": "fee1",
+          "type": "uint8"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "parameters",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "factory",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "token0",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "token1",
+          "type": "address"
+        },
+        {
+          "internalType": "uint24",
+          "name": "fee",
+          "type": "uint24"
+        },
+        {
+          "internalType": "int24",
+          "name": "tickSpacing",
+          "type": "int24"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {},
+  "factoryDeps": {}
+}
