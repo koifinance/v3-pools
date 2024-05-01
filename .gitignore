@@ -6,3 +6,4 @@ typechain/
 arguments.js
 initHash.js
 package-lock.json
+.DS_Store
